@@ -1,0 +1,593 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  width: 1439px;
+  height: 1652px;
+  word-wrap: break-word;
+}
+
+        /* SWİPER STYLE */
+.swiper {
+  margin-top: 30px;
+  width: 100%;
+  height: 600px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display:block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+          /* Header (First state)*/
+.header{
+  background-color: black;
+  color: #eee;
+  font-weight: bold;
+  font-size: 18px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+ padding-left: 26px;
+ padding-right: 26px;
+}
+.contact{ 
+  display: flex;
+  margin-left: 0;
+  color: white;
+}
+.contact a{
+  color: white;
+}
+.follow a{
+  color: white;
+  padding-left: 5px;
+}
+
+.titletext{
+  margin-left: auto;
+}
+.follow{
+  margin-left: auto;
+}
+
+            /* HeaderMenu (Bandage) */
+.HeaderMenu{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+.HeaderMenu li a:hover{
+  color: orangered;
+  padding: 2px;
+  background: black;
+  width: 5px;
+  border: 2px solid orangered;
+  transition: all 0.5s;
+}
+.HeaderMenu a:hover{
+  color: orangered;
+}
+.title{
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.menu{
+  color: black;
+  margin-left: auto;
+}
+.menu a{
+  color: black;
+  padding-left: 7px;
+  padding: 5px;
+  background: ;
+  width: 5px;
+  
+  transition: all 0.7s;
+  
+}
+.dropdown-menu{
+  position: relative;
+  display: inline-block;
+  
+  
+}
+.dropdown-menu ul{
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  z-index: 500;
+  bottom: -122px;
+  background-color: #67626291;
+  color: orangered;
+  border: 1px solid orangered;
+  box-shadow: 0px 10px 10px 5px orangered;
+  text-shadow: 3px 3px 3px white;
+}
+.dropdown-menu:hover ul{
+  display: block;
+  color: orangered;
+  
+}
+
+.register{
+  margin-left: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+          /* EDİTOR STYLE */
+.editor{
+  text-align: center;
+  background-color:lavender;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.editor span#one{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.editor span#two{
+  color:slategray ;
+  font-weight: bold;
+}
+.images{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100em;
+}
+.men{
+  position: absolute;
+  margin-left: -25%;
+  margin-top: 25%;
+  width: 10em;
+  color: black;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+.women{
+  position: absolute;
+  margin-left: -23%;
+  margin-top: 25%;
+  width: 10em;
+  color: black;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+.kids{
+  position: absolute;
+  margin-left: -17%;
+  margin-top: 25%;
+  width: 10em;
+  color: black;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+.accessories{
+  position: absolute;
+  margin-left: -17%;
+  margin-top: 10%;
+  width: 10em;
+  color: black;
+  background-color: white;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  font-weight: bold;
+}  
+            /* BESTSELLER STYLE */
+.bestseller-title1{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+  font-weight: 200;
+  color: black;
+  opacity: 0.4;
+  margin-bottom: 9px;
+}
+.bestseller-title2{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.bestseller-title3{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 60px;
+  opacity: 0.4;
+}
+.bestseller-content1{
+  display: flex;
+  margin-left: 19%;
+  margin-right: auto;
+  width: 30em;
+}
+.bestseller-content1 img{
+  
+  margin-right: 70px;
+}
+.bestseller-img1-text{
+  font-weight: bold;
+  margin-top: 20px;
+}
+.bestseller-img2-text{
+  font-weight: bold;
+  font-size: 10px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.price1{
+  font-weight: bold;
+  opacity: 0.5;
+  margin-top: 10px;
+  
+}
+.price2{
+  font-weight: bold;
+  color: darkgreen;
+}
+.colors{
+  display: flex;
+}
+.color1{
+  background-color: #51a5e1;
+  border: 3px solid rgba(255, 255, 255, .5);
+  border-radius: 115px;
+  width:5px;
+  height:5px;
+  line-height:5px;
+  font-size:5px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-shadow:#2d4251 5px 5px 5px;
+  
+}
+.color2{
+  background-color: green;
+  border: 3px solid rgba(255, 255, 255, .5);
+  border-radius: 115px;
+  width:5px;
+  height:5px;
+  line-height:5px;
+  font-size:5px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-shadow:#2d4251 5px 5px 5px;
+}
+.color3{
+  background-color: orangered;
+  border: 3px solid rgba(255, 255, 255, .5);
+  border-radius: 115px;
+  width:5px;
+  height:5px;
+  line-height:5px;
+  font-size:5px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-shadow:#2d4251 5px 5px 5px;
+}
+.color4{
+  background-color: black;
+  border: 3px solid rgba(255, 255, 255, .5);
+  border-radius: 115px;
+  width:5px;
+  height:5px;
+  line-height:5px;
+  font-size:5px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-shadow:#2d4251 5px 5px 5px;
+}
+.bestseller-content2{
+  display: flex;
+  margin-left: -257%;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 20em;
+  padding-bottom: 40px;
+}
+
+            /* PART of The Neural Universe */
+.middle{
+  display: flex;
+}
+.part{
+  margin-left: 0;
+}
+.message{
+  font-size: 40px;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.message-one{
+  font-weight: bold;
+  opacity: 0.3;
+}
+.message-two{
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: large;
+}
+.message-three{
+  margin-top: 10%;
+  font-weight: bold;
+  opacity: 0.3;
+}
+.message-buttons{
+  display: flex;
+}
+.message-button-one{
+  width: 9em;
+  height: 3em;
+  margin-top: 10%;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+.message-button-one:hover{
+  opacity: 0.7;
+}
+.message-button-two{
+  width: 9em;
+  height: 3em;
+  margin-top: 10%;
+  margin-left: 3%;
+  border: 2px solid green;
+  color: green;
+}
+.message-button-two:hover{
+  opacity: 0.7;
+}
+            /* FEATURED POSTS */
+
+.news-area{
+  width:auto;
+  height: 800px;
+}
+.news-head{
+  text-align: center;
+  margin-top: 5%;
+}
+.practice a{
+  
+  color: blue;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.news-title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.news-explanation{
+  opacity: 0.7;
+  margin-top: 2%;
+}
+
+            /* Don't Touch */
+.news-show-area{
+  
+  display: flex;
+}
+.news-show-1{
+  border: 1px solid #0000006b;
+  width: 348px;
+  height: 530px;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.news-show-a a{
+  text-align: left;
+  margin-left: 3%;
+  font-size: 10px;
+  margin-top: 2%;
+  color: black;
+  opacity: 0.6;
+}
+.news-show-a a:hover{
+  color: blue;
+}
+.news-show-explanation1{
+  font-size:25px ;
+  margin-left:3% ;
+}
+.news-show-explanation2{
+  margin-top: 2%;
+  margin-left: 3%;
+  opacity: 0.6;
+  font-size: 19px;
+}
+.news-interaction{
+  margin-top: 2%;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.news-date{
+  text-align: left;
+  opacity: 0.6;
+}
+.news-comments{
+  margin-left: 45%;
+  opacity: 0.6;
+}
+.learn-more{
+  margin-top: 2%;
+  margin-left: 3%;
+  font-weight: bold;
+}
+.learn{
+  color: black;
+}
+.learn-2{
+  color: #51a5e1;
+}
+.right{
+  margin-left: 3%;
+  font-size: 20px;
+  margin-top: 2%;
+  color: #51a5e1;
+}
+
+
+              /* FOOTER */
+.footer{
+  background-color: rgb(197, 201, 204);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+.footer-title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+.footer-follow{
+  text-align: right;
+  font-weight: bold;
+  margin-right: 10%;
+  margin-top: -3%;
+}
+.footer-follow a{
+  color: blue;
+  font-size: 30px;
+}
+
+            /* BOTTOM */
+.bottom{
+  height: auto;
+  padding-top: 5%;
+  padding-left: 10%;
+  display: flex;
+}
+.company-info{
+  color: black;
+  font-weight: bold;
+}
+.company-info a{
+  color: black;
+  opacity: 0.5;
+}
+.company-Legal{
+  margin-left: 3%;
+  font-weight: bold;
+}
+.company-Legal a{ 
+  color: black;
+  opacity: 0.5;
+}
+.company-Features{
+  margin-left: 3%;
+  font-weight: bold;
+}
+.company-Features a{
+  color: black;
+  opacity: 0.5;
+}
+.company-Resources{
+  margin-left: 3%;
+  font-weight: bold;
+}
+.company-Resources a{
+  color: black;
+  opacity: 0.5;
+}
+.company-get-in-touch{
+  margin-left: 3%;
+  font-weight: bold;
+}
+.bottom-button{
+  height: 23px;
+  margin-top: 2.5%;
+  width: 7em;
+  background-color:#51a5e1;
+  border: 1px solid ;
+  font-weight: bold;
+  color: white;
+  margin-left: 1.8%;
+}
+.form-text{
+  margin-top: 5%;
+  margin-left: -13.5%;
+  opacity: 0.5;
+}
+.the-end{
+  background-color: rgb(197, 201, 204);
+  height: 74px;
+  
+}
+.the-end-text{
+  margin-left: 10%;
+  margin-top: 3%;
+  font-weight: bold;
+  padding-top: 2.5%;
+}

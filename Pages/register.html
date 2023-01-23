@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+</head>
+<body style="text-align: center; padding-top: 200px; background-color: cornflowerblue;">
+    <h1>Register </h1>
+<form action="./data.php" method="get">
+    <input type="text" name="ad">
+    <input type="text" name="soyad">
+    <input type="email" name="email">
+    <input type="submit" name="GONDER">
+</form>
+    <script>
+
+        function redirect(){
+            document.forms[0].action="/Market/PHP/data.php"
+        }
+
+    </script>
+</body>
+</html>
